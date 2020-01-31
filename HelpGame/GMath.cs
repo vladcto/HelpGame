@@ -30,14 +30,7 @@ namespace HelpGame
         /// <seealso cref="GMath.DiffrLess(int, int,int)"/>
         public static bool DiffrLess(float first,float second,float max_differ)
         {
-            if (Math.Abs(first - second) < max_differ)
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
+            return Math.Abs(first - second) < max_differ;
         }
         /// <summary>
         /// Compares the difference between 2 numbers, and gives the truth if it is less max_differ.
@@ -59,14 +52,7 @@ namespace HelpGame
         /// <seealso cref="GMath.DiffrLess(int, int,int)"/>
         public static bool DiffrLess(double first, double second, double max_differ)
         {
-            if (Math.Abs(first - second) < max_differ)
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
+            return Math.Abs(first - second) < max_differ;
         }
         /// <summary>
         /// Compares the difference between 2 numbers, and gives the truth if it is less max_differ.
@@ -88,14 +74,7 @@ namespace HelpGame
         /// <seealso cref="GMath.DiffrLess(float, float,float)"/>
         public static bool DiffrLess(int first, int second, int max_differ)
         {
-            if (Math.Abs(first - second) < max_differ)
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
+            return Math.Abs(first - second) < max_differ;
         }
         #endregion DiffrLess
 
