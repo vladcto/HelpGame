@@ -8,7 +8,7 @@ namespace HelpGame
     public static class GMath
     {
 
-        //Methods for compares the difference between 2 numbers with a suitable difference
+        //Methods for compares the difference between 2 numbers with a suitable difference.
         #region methods DiffrLess
         /// <summary>
         /// Compares the difference between 2 numbers, and gives the truth if it is less max_differ.
